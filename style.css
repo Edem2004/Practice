@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --nav-background-color: #ffffff;
+  --nav-button: rgba(122, 229, 253, 1);
+  --global-text-color: #000000;
+  --header-element-text-color: #ffffff;
+  --header-element-button: #ffffff;
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 100vw;
+  padding: 0 2vw;
+}
+
+ .header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 4.375rem;
+    background-color: var(--nav-background-color);
+  }
+  .nav-conty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-conty-img img {
+    margin-right: 25rem;
+    width: 4.0625rem;
+    height: 4.0625rem;
+  }
+  .nav-conty-link {
+    display: flex;
+    align-items: center;
+  }
+  .nav-conty-it {
+    display: flex;
+  }
+  .nav-conty-it-link {
+    margin-right: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: var(--global-text-color);
+  }
+  .nav-conty-it-button {
+    background-color: var(--nav-button);
+    padding: 1.3125rem 2.1875rem;
+    border-radius: 5.4375rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: var(--global-text-color);
+  }
+
+  .header-element {
+    background-image: url(imges/assets/img_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .header-element-conty {
+    display: flex;
+    text-align: left;
+    padding: 12.6875rem 40.5rem 12.75rem 6.5625rem;
+  }
+  .header-element-conty__title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 3.9375em;
+    color: var(--header-element-text-color);
+    margin-bottom: 1.25rem;
+  }
+  .header-element-conty__sub {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: var(--global-text-color);
+    margin-bottom: 2.5rem;
+  }
+  .header-element-conty__button {
+    padding: 1.3125rem 2.1875rem;
+    background-color: var(--header-element-button);
+    border-radius: 5.4375rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: var(--global-text-color);
+  }
+
+  
+  
